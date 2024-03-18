@@ -25,5 +25,13 @@ qt6_add_qml_module(content
         RESOURCES Girls/uiDurandal.gif
         RESOURCES Girls/inDurandal.gif
         QML_FILES MainUi.qml
+        RESOURCES Girls/inmusicseele.mp3
+        RESOURCES Girls/uimusicseele.flac
+        RESOURCES Girls/inmusicdurandal.mp3
+        RESOURCES Girls/inmusicdurandal.mp3
+        RESOURCES Girls/uimusicdurandal.flac
+        RESOURCES Girls/mainuimusic.mp3
+        RESOURCES Girls/mainui.gif
+        SOURCES cpp.h cpp.cpp
 
 )
