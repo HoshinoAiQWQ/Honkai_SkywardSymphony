@@ -33,5 +33,9 @@ qt6_add_qml_module(content
         RESOURCES Girls/mainuimusic.mp3
         RESOURCES Girls/mainui.gif
         SOURCES cpp.h cpp.cpp
+        SOURCES myobject.h myobject.cpp
+        QML_FILES Battlefield.qml
+        RESOURCES battle/battlefield.mp4
+        RESOURCES battle/enemy1.png battle/enemy2.png battle/enermy3.png battle/player1.png battle/player2.png battle/player3.png battle/player4.png battle/player5.png
 
 )

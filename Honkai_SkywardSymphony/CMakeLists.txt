@@ -15,6 +15,8 @@ endif()
 
 qt_add_executable(Honkai_SkywardSymphonyApp src/main.cpp
     content/UiSeele.qml
+    ceshi.h ceshi.cpp
+    myobject.h myobject.cpp
 )
 
 qt_add_resources(Honkai_SkywardSymphonyApp "configuration"
